@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AprilTagDetectionFromDemuxer">
+			<method name="toggleAlignmentEnabled"/>
+			<method name="toggleMarkerDetection"/>
+			<method name="toggleMarkerDetection"/>
+			<method name="toggleMarkerDetection"/>
+			<method name="toggleMarkerDetection"/>
+		</type>
+		<type fullname="BibcamController">
+			<method name="OnRecordButtonSync"/>
+			<method name="OnRecordButtonSync"/>
+		</type>
+	</assembly>
+	<assembly fullname="Avfi.Runtime" ignoreIfMissing="1">
+		<type fullname="Avfi.VideoRecorder">
+			<method name="StartRecording"/>
+		</type>
+	</assembly>
+	<assembly fullname="Bibcam.Encoder" ignoreIfMissing="1">
+		<type fullname="Bibcam.Encoder.BibcamEncoder">
+			<method name="set_ishsv"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+		</type>
+	</assembly>
+</linker>
